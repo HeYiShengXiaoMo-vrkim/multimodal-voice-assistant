@@ -6,14 +6,14 @@ import tempfile
 
 # --- API 配置 ---
 # DeepSeek
-DEEPSEEK_API_KEY = "sk-3b30d77c798b43ca9ba331b64f91fad8" # 请替换为你的 DeepSeek API 密钥
+DEEPSEEK_API_KEY = "" # 请替换为你的 DeepSeek API 密钥
 DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 DEEPSEEK_CHAT_MODEL = "deepseek-chat"
 DEEPSEEK_VISION_MODEL = "deepseek-chat" # DeepSeek 可能使用相同模型处理视觉
 DEEPSEEK_THINKING_MODEL = "deepseek-Reasoner" # 用于功能判断的模型 (如果需要区分)
 
 # Gemini
-GEMINI_API_KEY = "AIzaSyCd1p06Y3QvKo7Q79uo5CBY2ifgjVREpjI" # <--- 在这里替换为你的 Gemini API 密钥
+GEMINI_API_KEY = " " # <--- 在这里替换为你的 Gemini API 密钥
 GEMINI_CHAT_MODEL = "gemini-1.5-flash-latest" # 文本模型
 GEMINI_VISION_MODEL = "gemini-1.5-flash-latest" # 视觉模型 (Flash 支持多模态)
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com" # 基础 URL (库内部使用)
