@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多模态 AI 语音助手</title>
+    <!-- 引入 Font Awesome 图标库 (示例) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-robot"></i> 多模态 AI 语音助手</h1>
+            <div id="status-indicator" class="status-idle">
+                <span class="status-dot"></span>
+                <span class="status-text">空闲</span>
+            </div>
+        </header>
+
+        <main>
+            <section class="input-area">
+                <textarea id="user-input" placeholder="输入文本指令或点击麦克风..." rows="3"></textarea>
+                <div class="button-group">
+                    <button id="send-button" title="发送文本指令">
+                        <i class="fas fa-paper-plane"></i> 发送
+                    </button>
+                    <button id="voice-button" title="开始语音输入">
+                        <i class="fas fa-microphone"></i> 语音
+                    </button>
+                    <!-- 可以添加截图/摄像头按钮 -->
+                    <!--
+                    <button id="screenshot-button" title="附加截图">
+                        <i class="fas fa-camera"></i> 截图
+                    </button>
+                    -->
+                </div>
+            </section>
+
+            <section class="response-area">
+                <h2><i class="fas fa-comment-dots"></i> 助手响应</h2>
+                <div id="assistant-response" class="response-content">
+                    <p>请开始输入指令...</p>
+                    <!-- 响应内容将显示在这里 -->
+                    <!-- 图片预览示例 -->
+                    <!-- <img id="response-image" src="" alt="助手返回的图片" style="display: none; max-width: 100%; margin-top: 10px;"> -->
+                </div>
+                 <div id="loading-indicator" style="display: none;">
+                     <i class="fas fa-spinner fa-spin"></i> 正在处理...
+                 </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 语音助手</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
