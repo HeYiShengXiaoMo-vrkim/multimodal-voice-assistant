@@ -67,25 +67,15 @@
     ```bash
     pip install -r requirements.txt
     ```
-  
-4.  **安装前端依赖 (如果需要):**
-    *(假设你有一个 `package.json` 并且前端代码在 `frontend` 目录)*
-    ```bash
-    # cd frontend  # 进入前端目录 (如果需要)
-    # npm install  # 或者 yarn install
-    # npm run build # 如果需要构建步骤
-    ```
-    *(请根据你的项目结构和前端工具链进行修改)*
-
-5.  **配置 (如果需要):**
-    *   检查是否有 `.env.example` 或 `config.py.example` 文件，根据说明创建并配置必要的 API 密钥或设置。
+4.  **配置 (如果需要):**
+    *   检查是否有 `config.py` 文件，根据说明创建并配置必要的 API 密钥或设置。
 
 ## 如何使用
 ### 方式一：(有前后端方便观察)
 
 1.  **启动后端服务:**
     ```bash
-    python bakend_app.py
+    python backend_app.py
     ```
     *   留意终端输出，查看服务运行在哪个地址和端口 (默认 `http://127.0.0.1:5000`)。
 
