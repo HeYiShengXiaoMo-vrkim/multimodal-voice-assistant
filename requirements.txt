@@ -1,0 +1,57 @@
+# Web服务和API
+flask==3.1.0
+requests==2.31.0
+
+# 语音处理
+SpeechRecognition==3.10.0
+pygame==2.5.2
+pyttsx3==2.90
+google-cloud-texttospeech==2.14.1
+
+# LLM接口
+google-generativeai==0.8.4
+
+# 图像处理
+Pillow==11.2.1
+numpy==2.2.4
+
+# 网页搜索
+duckduckgo-search==8.0.0
+beautifulsoup4==4.12.2
+
+# 系统交互
+pyperclip==1.8.2
+mss==10.0.0
+
+# 工具依赖
+python-dotenv==1.0.0
+rich==14.0.0
+
+# 其他依赖
+pydub==0.25.1
+pydantic==2.11.3
+python-multipart==0.0.20
+python-dateutil==2.9.0.post0
+python-telegram-bot==22.0
+pydantic-core==2.14.6
+pydantic-settings==2.8.1
+
+# 语音识别和合成
+pygame==2.5.2
+pyttsx3==2.90
+google-cloud-texttospeech==2.14.1
+
+# LLM接口
+google-generativeai==0.8.4
+
+# 图像处理
+Pillow==11.2.1
+numpy==2.2.4
+
+# 网页搜索
+duckduckgo-search==8.0.0
+beautifulsoup4==4.12.2
+
+# 系统交互
+pyperclip==1.8.2
+mss==10.0.0
