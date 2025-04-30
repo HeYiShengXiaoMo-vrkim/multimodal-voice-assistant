@@ -41,7 +41,6 @@
 
 *   Python 3.x
 *   pip (Python 包管理器)
-*   (如果前端需要构建) Node.js 和 npm/yarn
 
 **步骤:**
 
